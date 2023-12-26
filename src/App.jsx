@@ -1,15 +1,11 @@
 import React from "react";
-import Cart from "./Pages/Cart";
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
-import Product from "./Pages/Product";
-import ProductList from "./Pages/ProductList";
 import Register from "./Pages/Register";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
   Navigate
 } from "react-router-dom";
 import Success from "./Pages/Success";
